@@ -7,21 +7,95 @@ body{
 a{
     text-decoration: none;
 }
+
 h1{
     font-size: 80px;
     color: #192b59;
     font-weight: 600;
+    max-width: 540px;
+    letter-spacing: -2.5px;
+    line-height: 1.1;
+    margin-bottom: 65px;
+}
+.title-h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+}
+.title-h2 span{
+    display: block;
+    font-size: 16px;
+    font-weight: 800; 
+    color: #1085e4 ;
+}
+.page-stat .title-h2{
+    text-align: center;
+}
+.wrap{
+    max-width: 1110px;
+    margin: 0 auto;
+    justify-content: space-around;
 }
 .nav{
 font-size: 12px;
 text-transform: uppercase;
 font-weight: 700;
-color: #6e7ea9;
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+display: flex;
 }
-.btn free{
-    color: #fff;
-    font-weight: 400;
+.nav>li{
+    padding: 0 15px;
+    
+}
+.nav-item{
+    color: #6e7ea9;
+}
+.btn-primary{
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: 2.5px;
     background-color:#1085e4 ;
+    border: 1px solid #1085e4;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+.btn-primary:hover{
+    color:#1085e4;
+    background-color: #ffffff;
+}
+.btn-secondary{
+    font-size: 12px;
+    color: #7e8bae;
+    letter-spacing: 2.5px;
+    background-color:#cbdbe8 ;
+    border: 1px solid #cbdbe8;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+.btn-free{
+    padding: 21px 56px;
+    font-weight: 400;
+    letter-spacing: 1.7px;
+}
+.btn-info{
+    color: 8085b1;
+    background-color: transparent;
+    border:1px solid #dce1e5;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+.btn-group a + a {
+    margin-left: 15px;
 }
 .grid h2{
 font-size: 40px;
@@ -42,4 +116,25 @@ font-weight: 700;
     color: #1085e4;
     font-size: 14px;
     font-weight: 600;
+}
+.list-stat{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.list-stat>li{
+font-size: 12px;
+color:#1085e4 ;
+font-weight: 700;
+letter-spacing: 2.7px;
+text-transform: uppercase;
+text-align: center;
+}
+.list-stat>li>span{
+    display: block;
+    font-size: 60px;
+    color: #bacbdc;
+    margin-bottom: 23px;
+    letter-spacing: 0px;
+
 }
